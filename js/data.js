@@ -1,0 +1,62 @@
+var pagedata = {
+	notice:{
+		title:"国庆节放假通知",
+		content:"10月1日至10月7日放假，9月29日（星期日）、10月12日（星期六）上班。拼假建议：9月29日（周日）~9月30日（周一）请2天假，可拼10天国庆节小长假"
+	},
+	hotclass:[
+		{img:"img/ch8.jpg",title:"马广钧中医药疗法全课程一",content:"马广钧中医药疗法全课程介绍马广钧中医药疗法全课程介绍马广钧中医药疗法全课程介绍",classId:1},
+		{img:"img/ch1.jpg",title:"马广钧中医药疗法全课程二",content:"马广钧中医药疗法全课程介绍马广钧中医药疗法全课程介绍",classId:2},
+		{img:"img/ch8.jpg",title:"马广钧中医药疗法全课程三",content:"马广钧中医药疗法全课程介绍马广钧中医药疗法全课程介绍马广钧中医药疗法全课程介绍",classId:3},
+		{img:"img/ch1.jpg",title:"马广钧中医药疗法全课程四",content:"马广钧中医药疗法全课程介绍马广钧中医药疗法全课程介绍马广钧中医药疗法全课程介绍",classId:4}
+	],
+	noticedetail:{
+		title:"国庆节放假通知",
+		content:"10月1日至10月7日放假，9月29日（星期日）、10月12日（星期六）上班。拼假建议：9月29日（周日）~9月30日（周一）请2天假，可拼10天国庆节小长假"
+	},
+	prodetails:[
+		{
+			id:1,
+			videoUrl:"https://www.w3school.com.cn/i/movie.ogg",
+			title:"马广钧中医药疗法全课程一",
+			create_time:"2019-03-02 -2020-09-20",
+			tag:['会员专享','全程版'],
+			price:88,
+			class_detail:"马广钧中医药疗法全课程详细介绍",
+			class_info:"马广钧中医药疗法全课程课程详细介绍",
+			class_teacher:"2019年金牌讲师,马广钧"
+		},
+		{
+			id:2,
+			videoUrl:"https://www.w3school.com.cn/i/movie.ogg",
+			title:"马广钧中医药疗法全课程二",
+			create_time:"2019-03-02 -2020-09-20",
+			tag:['会员专享'],
+			price:75,
+			class_detail:"马广钧中医药疗法全课程详细介绍",
+			class_info:"马广钧中医药疗法全课程课程详细介绍",
+			class_teacher:"2019年金牌讲师,马广钧"
+		},
+		{
+			id:3,
+			videoUrl:"https://www.w3school.com.cn/i/movie.ogg",
+			title:"马广钧中医药疗法全课程三",
+			create_time:"2019-03-02 -2020-09-20",
+			tag:['会员专享','全程版'],
+			price:96,
+			class_detail:"马广钧中医药疗法全课程详细介绍",
+			class_info:"马广钧中医药疗法全课程课程详细介绍",
+			class_teacher:"2019年金牌讲师,马广钧"
+		},
+		{
+			id:4,
+			videoUrl:"https://www.w3school.com.cn/i/movie.ogg",
+			title:"马广钧中医药疗法全课程四",
+			create_time:"2019-03-02 -2020-09-20",
+			tag:['会员专享','全程版','VIP尊享'],
+			price:96,
+			class_detail:"马广钧中医药疗法全课程详细介绍",
+			class_info:"马广钧中医药疗法全课程课程详细介绍",
+			class_teacher:"2019年金牌讲师,马广钧"
+		}
+	]
+}
