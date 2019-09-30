@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>马广钧中医</title>
+ <link rel="stylesheet" href="css/jquery-weui.min.css" />
+ <link rel="stylesheet" href="css/swiper.min.css" />
+ <link rel="stylesheet" href="css/weui.min.css" />
+ 	<style>
+			*{
+				margin: 0;
+				padding: 0;
+				border: none;
+			}
+			ul,li{	margin: 0;
+				padding: 0;
+				border: none;
+				list-style: none;}
+			html,body{
+				width: 100%;
+				height: auto;
+				font-family: "microsoft yahei,微软雅黑 ";
+				background-color: #f3f4f6;
+			}
+			.containar{
+				width: 100%;
+				height: auto;
+				background-color: #f3f4f6;
+			}
+
+.footer{
+	position: fixed!important;
+	/*height: 58px;*/
+	bottom: 0px;
+}
+.about_contain{
+	width: 100%;
+	height: auto;
+	background: #FFFFFF;
+	
+}
+.about_tittle{
+	width: 94%;
+	margin: 0 auto;
+	padding: 20px 0px;
+}
+.about_tittle p{
+margin: 10px 0px;
+text-indent: 32px;
+color: #41444A;
+}
+ </style>
+</head>
+<body>
+<div class="containar">
+<!--内容-->
+<div class="about_contain">
+<img src="img/about.jpg"  width="100%"/>
+<div class="about_tittle" id="notice_detail">
+	<h3></h3>
+	<p></p>
+
+</div>
+</div>
+<!--内容-->
+<!--底部导航-->
+<div class="weui-tabbar footer">
+    <a href="index.html" class="weui-tabbar__item weui-bar__item--on">
+      <span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;">8</span>
+      <div class="weui-tabbar__icon">
+        <img src="img/icon_bg_home.png" alt="">
+      </div>
+      <p class="weui-tabbar__label">课程首页</p>
+    </a>
+    
+    <a href="applicant.html" class="weui-tabbar__item">
+      <div class="weui-tabbar__icon">
+        <img src="img/icon_user_h.png" alt="">
+      </div>
+      <p class="weui-tabbar__label">我的</p>
+    </a>
+  </div>
+<!--底部导航-->
+
+</div>
+
+
+<script type="text/javascript" src="js/jquery-2.1.4.js" ></script>
+<script type="text/javascript" src="js/jquery-weui.min.js" ></script>
+<script type="text/javascript" src="js/swiper.js" ></script>
+<script type="text/javascript" src="js/data.js" ></script>
+<script type="text/javascript" src="js/notice_detail.js" ></script>
+
+	<script>
+        var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        autoplay: 2500
+    });
+    </script>
+</body>
+</html>
