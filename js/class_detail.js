@@ -9,7 +9,7 @@ $(document).ready(function(){
 	}
 	console.log(detailData);
 	var classdetailHtml  =  '<div class="aui-ad-img">'+
-								'<video src="'+detailData.videoUrl+'" width="100%" controls="controls"></video>'+
+								'<video src="'+detailData.videoUrl+'" poster="'+detailData.videoImg+'" width="100%" controls="controls"></video>'+
 							'</div>'+
 							'<div class="aui-flex-box">'+
 								'<h1>'+detailData.title+'</h1>'+
