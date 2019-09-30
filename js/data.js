@@ -17,6 +17,7 @@ var pagedata = {
 		{
 			id:1,
 			videoUrl:"https://www.w3school.com.cn/i/movie.ogg",
+			videoImg:"../img/about.jpg",
 			title:"马广钧中医药疗法全课程一",
 			create_time:"2019-03-02 -2020-09-20",
 			tag:['会员专享','全程版'],
@@ -28,6 +29,7 @@ var pagedata = {
 		{
 			id:2,
 			videoUrl:"https://www.w3school.com.cn/i/movie.ogg",
+			videoImg:"../img/timg.jpg",
 			title:"马广钧中医药疗法全课程二",
 			create_time:"2019-03-02 -2020-09-20",
 			tag:['会员专享'],
@@ -39,6 +41,7 @@ var pagedata = {
 		{
 			id:3,
 			videoUrl:"https://www.w3school.com.cn/i/movie.ogg",
+			videoImg:"../img/about.jpg",
 			title:"马广钧中医药疗法全课程三",
 			create_time:"2019-03-02 -2020-09-20",
 			tag:['会员专享','全程版'],
@@ -50,6 +53,7 @@ var pagedata = {
 		{
 			id:4,
 			videoUrl:"https://www.w3school.com.cn/i/movie.ogg",
+			videoImg:"../img/timg.jpg",
 			title:"马广钧中医药疗法全课程四",
 			create_time:"2019-03-02 -2020-09-20",
 			tag:['会员专享','全程版','VIP尊享'],
